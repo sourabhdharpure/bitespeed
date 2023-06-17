@@ -1,0 +1,8 @@
+FROM node:14
+
+WORKDIR /app
+COPY . .
+RUN chmod +x docker-boot.sh
+RUN npm install
+ENTRYPOINT ["./docker-boot.sh", "migration"]
+# CMD npm start

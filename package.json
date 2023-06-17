@@ -1,0 +1,21 @@
+{
+  "name": "bitespeed",
+  "version": "1.0.0",
+  "description": "​ The project's repository holds the content for the BFF service. The project is based on Node.js stack, using the following modules: ​  1. Express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "migration": "nodemon src/migration.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http": "0.0.1-security",
+    "mysql2": "^3.3.5"
+  }
+}
